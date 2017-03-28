@@ -1,0 +1,197 @@
+body 
+{
+    direction:rtl;
+    font-family: Alef;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+#container
+{
+    width: 960px; margin: 10px 280px; height: 1080px;
+}
+
+
+#head
+{
+    
+}
+#name
+{
+    display: inline-block;
+    background-color: #4A4644;
+    height: 150px; width: 400px;
+    margin: 0px 200px 0px 0px;
+    text-align:center;
+    
+}
+#nametext
+{
+    position:relative;
+    top: 55px;
+    font-size: 35px;
+    font-family: Alef;
+    color:white;
+
+}
+#pic
+{
+    display: inline-block;
+    margin: 0px 0px;
+    position: absolute;
+    margin: 0px 0px 440px 55px;
+}
+#me
+{
+        height: 150px; width: 150px;
+         margin: 0px 0px;
+
+}
+#category
+{
+   margin: 0px 200px 0px 0px;
+}
+#work
+{
+    width: 150px; height: 150px;  margin: 10px 10px;
+    /*background-color: aqua;*/ color: white; font-size: 20px; display: inline-block;
+    background-image:url(../images/workicon-80.jpg);
+    -webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+}
+#study
+{
+    width: 150px; height: 150px;  margin: 10px 10px;
+    /*background-color: red;*/ color: white; font-size: 20px;
+    display: inline-block;
+    background-image: url(../images/studyicon-100.jpg);
+    -webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+
+}
+#fun
+{
+    width: 150px; height: 150px;  margin: 10px 10px;
+    /*background-color: purple;*/ color: white; font-size: 20px;
+    display: inline-block;
+    background-image:url(../images/funicon-80.jpg);
+    -webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+
+}
+#workinfo {
+    width: 800px; height: 350px; 
+    background-color:#7AC943;
+    display: none;
+    margin: 0px 80px 0px 0px;
+    outline: 4px solid #FFFFFF;
+outline-offset: 4px;
+position:relative; top:20px;
+}
+#workinfo:hover
+{
+    background-color: green;
+}
+#studyinfo {
+    width: 800px; height: 350px; 
+    background-color: #3FA9F5;
+     display: none;
+     margin: 0px 80px 0px 0px;
+     outline: 4px solid #FFFFFF;
+outline-offset: 4px;
+position:relative; top:20px;
+}
+#studyinfo:hover
+{
+    background-color: darkblue;
+}
+#funinfo {
+    width: 800px; height: 350px; 
+    background-color: #FF931E;
+     display: none;
+     margin: 0px 80px 0px 0px;
+     outline: 4px solid #FFFFFF;
+outline-offset: 4px;
+position:relative; top:20px;
+}
+#funinfo:hover {
+    background-color: #FF791E;
+}
+.liinfo
+{
+    position: relative; right: 35px; top: 10px;
+    font-family: Alef; color: white; font-size: 21px;
+    line-height: 35px;
+    width: 750px;
+}
+#workhover
+{
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0;
+    width: 150px; height: 150px; 
+    background-color: green;
+    text-align: center; 
+}
+#workhover:hover
+
+{
+    opacity:1;
+-webkit-box-shadow: 5px 10px 20px 1px #99918C;
+box-shadow: 5px 10px 20px 1px #99918C;
+}
+#studyhover
+{
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0;
+    width: 150px; height: 150px; 
+    background-color: darkblue;
+    text-align: center; 
+}
+#studyhover:hover
+
+{
+    opacity:1;
+-webkit-box-shadow: 5px 10px 20px 1px #99918C;
+box-shadow: 5px 10px 20px 1px #99918C;
+}
+#funhover
+{
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0;
+    width: 150px; height: 150px; 
+    background-color: #FF791E;
+    text-align: center; 
+}
+#funhover:hover
+
+{
+    opacity:1;
+-webkit-box-shadow: 5px 10px 20px 1px #99918C;
+box-shadow: 5px 10px 20px 1px #99918C;
+}
+#contact
+{
+    background-color: #736D69;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 40px 0px;
+}
+.cattext
+{
+    position:relative; 
+    top: 50px;
+    font-family: Alef; 
+    font-size: 28px;
+    font-weight: bold;
+}
