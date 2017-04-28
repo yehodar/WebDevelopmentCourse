@@ -1,0 +1,116 @@
+body 
+{
+    direction:rtl;
+}
+#container
+{
+    background-color: white;
+    height: 1200px;
+  
+}
+#headersurprise
+{
+     width: 1335px; height: 250px;
+    background-image:url(../images/surprise.jpg);
+    padding: 100px 100px;
+}
+#headertext
+{
+    color: white; font-size: 54px; 
+    font-family: Arial; text-shadow: 5px 5px 6px black;
+}
+table
+{
+    margin: 30px 250px;
+    width: 990px; 
+    text-align: center; 
+}
+table, tr, th, td
+{
+        /*border: 1px black solid;*/
+        vertical-align: middle;
+        padding: 10px 30px;
+          height: 70px;
+}
+table td
+{
+    width: 25px;
+}
+
+.th1
+{
+    background-color: darkgray; color: white; 
+    font-size: 22px;
+    text-shadow: 1px 1px 2px black;
+    height: 20px;
+}
+#tech
+{
+    background-color: #beb828; color: white; 
+    font-size: 18px;
+    text-shadow: 1px 1px 2px black;
+    padding: 10px 0px;
+}
+#tech:hover
+{
+background-color: #e7e15e;  
+}
+#design
+{
+    background-color: #900e0e; color: white; 
+    font-size: 18px;
+    text-shadow: 1px 1px 2px black;
+    padding: 10px 0px;
+}
+#design:hover
+{
+    background-color: #ce5353; 
+}
+#guid
+{
+    background-color: #7c0b7a; color: white; 
+    font-size: 18px;
+    text-shadow: 1px 1px 2px black;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+#guid:hover
+{
+background-color: #b15cbd;
+}
+a
+{
+    text-decoration: none;
+}
+
+img:hover
+{
+    opacity: 0.3;
+}
+
+
+
+#formplace
+{
+    width: 1335px; height:60px;
+    background-image:url(../images/wall.jpg);
+    padding: 60px 100px;
+}
+form label
+{
+    font-size: 23px; color: white; font-weight: bold; 
+
+    text-shadow: 1px 1px 3px #000000;
+}
+form
+{       
+     background-color: rgba(110, 110, 110, 0.3);
+}
+#ready
+{
+    font-size: 27px; /*color: #0461be;*/
+    text-shadow: 1px 1px 3px white;
+    font-weight: bold;
+
+
+}
