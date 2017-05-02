@@ -1,0 +1,415 @@
+body 
+{
+    direction:rtl;
+    background-color: #323232;
+
+}
+/*דף הבית*/
+#container
+{
+    width: 1050px; height: 750px;
+    margin: 2px auto;
+    color:white;
+}
+#home
+{
+    table-layout:fixed;
+    width: 1050px; height: 750px;
+}
+#home tr
+{
+width: 1050px; height: 150px;
+}
+table, tr,td
+{
+    border-collapse: separate; 
+    font-family: 'Varela Round';
+    text-align: center; vertical-align:middle;
+    font-size: 22px;
+    border: 1px solid #b0b0b0;
+    border-radius: 5px;
+}
+table tr td a
+{
+   font-family: 'Varela Round';
+    text-align: center; vertical-align:middle;
+    font-size: 22px;   text-decoration: none;
+    color: white;
+}
+#home tr:first-child td:nth-child(2)
+{
+    background-image:url(../image/me.jpg);
+}
+#home tr:first-child td:nth-child(4)
+{
+    
+    font-size: 27px;
+    background-color: #414141;
+}
+/* בתאים מיוחדת מעברי צבע ורקעים*/
+/*אודות*/
+.tdreg
+{
+  background: #414141; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(45deg,#1a1a1a , #262626); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(45deg,#1a1a1a , #262626); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(45deg,#1a1a1a , #262626); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(45deg,#1a1a1a,#262626); /* Standard syntax */
+}
+#home tr:nth-child(2) td:nth-child(1)
+{   
+background-color: #930303;
+transition: 0.1s;
+}
+#home tr:nth-child(2) td:nth-child(1):hover
+{  
+background-color: #f35353;
+text-shadow: 1px 1px 2px black;
+}
+/*אנימציה*/
+#home tr:nth-child(2) td:nth-child(6)
+{   
+background-color: #935600;
+transition: 0.1s;
+}
+#home tr:nth-child(2) td:nth-child(6):hover
+{   
+background-color: #ffb46c;
+text-shadow: 1px 1px 2px black;
+}
+/*תקשח*/
+#home tr:nth-child(3) td:nth-child(3)
+{ 
+background-color: #7c036b;
+transition: 0.1s;
+}
+#home tr:nth-child(3) td:nth-child(3):hover
+{  
+background-color: #de71fd;
+text-shadow: 1px 1px 2px black;
+}
+#home tr:nth-child(3) td:nth-child(3):hover ~ td:nth-child(4) 
+{     
+background-image: url(../image/ttt.jpg);
+}
+/*גרפיקה*/
+#home tr:nth-child(4) td:nth-child(1)
+{ 
+background-color: #148302;
+transition: 0.1s;
+}
+#home tr:nth-child(4) td:nth-child(1):hover
+{  
+background-color: #70ff6e;
+text-shadow: 1px 1px 2px black;
+}
+#home tr:nth-child(4) td:nth-child(1):hover ~ td:nth-child(2) 
+{     
+background-image: url(../image/ggg.jpg);
+}
+/*ארגון ויצוג ידע*/
+#home tr:nth-child(4) td:nth-child(5)
+{ 
+background-color: #1923c0;
+transition: 0.1s;
+}
+#home tr:nth-child(4) td:nth-child(5):hover
+{  
+background-color: #6065fb;
+text-shadow: 1px 1px 2px black;
+}
+#home tr:nth-child(4) td:nth-child(5):hover ~ td:nth-child(6) 
+{     
+background-image: url(../image/sss.jpg);
+}
+
+/*צור קשר*/
+#home tr:nth-child(5) td:nth-child(7)
+{ 
+background-color: #a9a102;
+transition: 0.1s;
+}
+#home tr:nth-child(5) td:nth-child(7):hover
+{ 
+background-color: #fff37b;
+text-shadow: 1px 1px 2px black;
+}
+
+/*תאים בדף הבית -תאים עם צילומים ברקע*/
+#home tr:nth-child(2) td:nth-child(3)
+{ 
+background-image: url(../image/td1.jpg);
+}
+#home tr:nth-child(5) td:nth-child(6)
+{ 
+background-image: url(../image/td2.jpg);
+}
+#home tr:nth-child(3) td:nth-child(7)
+{ 
+background-image: url(../image/td3.jpg);
+}
+#home tr:nth-child(5) td:nth-child(2)
+{ 
+background-image: url(../image/td4.jpg);
+}
+#home tr:nth-child(3) td:nth-child(5)
+{ 
+background-image: url(../image/td5.jpg);
+}
+
+
+
+
+
+/*עיצוב דף*/
+#containerpage
+{
+    width: 1050px; height: auto;
+    margin: 2px auto;
+    color:white;
+    background-color:#dfdfdf;
+    
+}
+header
+{
+    width:850px; height: auto; border-bottom: 2px dashed white;
+    margin: 10px auto;
+    padding-top: 50px; 
+}
+article 
+{
+    width:850px; height: auto;
+    margin: 40px auto; 
+}
+h1
+{
+    font-size: 40px; font-family: 'Varela Round';
+    color: #353434; padding-bottom:10px;
+     padding-top: 25px; text-align:center;
+}
+h2
+{
+    font-size: 25px; font-family: 'Varela Round';
+    color: #353434; padding-bottom: 15px;padding-top: 2px; text-align:center;
+}
+p
+{
+    font-size: 25px;font-family: Alef;
+    color: #353434; padding-right: 30px; padding-bottom: 35px;
+    line-height: 30px; text-align: justify;
+}
+iframe 
+{
+    margin: 10px 90px;
+}
+a
+{
+    color: #3e2c9b; 
+}
+/*תפריט ניווט בעמוד פנימי*/
+nav
+{
+
+}
+nav ul li
+{
+    display: inline-block; float: right;
+    width: 148px; height:40px; border: 1px solid white;
+    background-color: #3f4164;
+    text-align: center;  /*padding: 12px 0px;*/
+}
+nav ul li:hover
+{
+    background-color: #343fc5;
+}
+nav ul li a
+{
+    display: block;
+    width: 148px; height:15px;  padding: 12px 0px;
+    
+    color: white;
+    font-size: 16px; font-family: 'Varela Round';
+    text-decoration: none;  
+}
+.inhere
+{
+    background-color: #343fc5;
+}
+#navhomepic
+{
+width: 20px; height: 20px;
+}
+#graphics
+{
+    width: 70%; margin-right: 150px;
+    margin-bottom: 30px;
+}
+/*טופס צור קשר*/
+#feedback
+{
+  visibility: hidden;
+}
+form label, input, textarea
+{
+    display: block;
+}
+form label
+{
+    padding-top: 13px; font-family: Alef;
+    font-size: 20px; color: darkblue;
+}
+#formsec
+{
+    padding: 20px 20px;
+    width: 250px;
+    border: 1px dashed white;
+    position: relative; right: 560px; top: -320px;
+}
+/*ייצוג עם רקע פרחים*/
+#info
+{
+    width: 180px; height: 100px;
+    font-family: Alef; font-weight:bold;
+}
+#sunset
+{
+    width:40%; padding-right: 50px;
+}
+#infoflowers
+{
+    width: 850px; height: 750px;
+    background-image: url(../image/flowers.jpg);
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+}
+#infoflowers a
+{
+    color: #1f137c;
+}
+#infop1
+{
+    background-color: rgba(255, 255, 255, 0.7); width: 220px;height: 14px; padding-top: 10px;
+    position: relative; top: 25px; right:25px;
+    font-weight: bold;
+}
+#infop2
+{
+    background-color: rgba(255, 255, 255, 0.7);
+     width: 650px;height: 7px; padding-top: 16px; padding-left: 20px;
+    position: relative; top: 50px; right:55px;
+    font-weight: bold;
+}
+#infop3
+{
+    background-color: rgba(255, 255, 255, 0.6); width: 210px;height: 144px;
+     padding-top: 10px; padding-left: 20px;
+    position: relative; top: 80px; right:20px;
+    font-size: 18px;text-align: justify; line-height: 30px;
+}
+#infop3:first-line
+{font-weight: bold; font-size:21px; line-height: 35px;}
+#infop3:first-letter
+{font-size:45px;}
+#infop4
+{
+    background-color: rgba(255, 255, 255, 0.6); width: 210px;height: 144px;
+     padding-top: 10px; padding-left: 20px;
+    position: relative; top:-109px; right:293px;
+    font-size: 18px;text-align: justify; line-height: 30px;
+}
+#infop4:first-line
+{font-weight: bold; font-size:21px; line-height: 35px;}
+#infop4:first-letter
+{font-size:45px;}
+#infop5
+{
+    background-color: rgba(255, 255, 255, 0.6); width: 210px;height: 144px;
+     padding-top: 10px; padding-left: 20px;
+    position: relative; top:-298px; right:566px;
+    font-size: 18px;text-align: justify; line-height: 25px;
+}
+#infop5:first-line
+{font-weight: bold; font-size:21px; line-height: 35px;}
+#infop5:first-letter
+{font-size:45px;}
+#infop6
+{
+    background-color: rgba(255, 255, 255, 0.7);
+     width: 450px;height: 40px; padding-top: 16px; padding-left: 20px;
+    position: relative; top: -270px; right:125px;
+    font-weight: bold;
+}
+#infop7
+{
+    background-color: rgba(255, 255, 255, 0.7);
+     width: 650px;height: 5px; padding-top: 10px; padding-left: 20px;
+    position: relative; top: -250px; right:85px;
+    font-weight: bold;
+}
+#infop8
+{
+    background-color: rgba(255, 255, 255, 0.7);
+     width: 250px;height: 65px; padding-top: 10px; padding-left: 20px;
+    position: relative; top: -230px; right:210px;
+     text-align: center;
+}
+#infoflowers p:hover
+{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#shovalsound
+{
+position: relative; right: 280px; top: 25px; margin-bottom: 100px;
+}
+/*תמונה המובילה לאנימציה 1 - פנדה*/
+
+#pandademodivup
+{
+width: 500px; height: 334px; margin: 15px auto;
+background-image: url(../image/animate-demo.jpg);
+
+}
+#pandademodivdown
+{
+width: 500px; height: 334px; margin: 15px auto;
+background-color: rgba(255, 255, 255, 0.7);
+visibility: hidden; box-shadow: #777676 -2px -2px 5px inset;
+}
+#pandademodivup:hover #pandademodivdown
+{
+    visibility: visible;
+}
+#pandademodivdown a
+{
+    text-decoration: none; font-weight: bold; 
+}
+#pandademodivdown a p
+{
+padding: 150px 80px; font-size: 30px;
+}
+/*תמונה המובילה לאנימציה 2 - נקודות*/
+
+#dotsdemodivup
+{
+width: 500px; height: 334px; margin: 15px auto;
+background-image: url(../image/animate2-demo.jpg);
+
+}
+#dotsdemodivdown
+{
+width: 500px; height: 334px; margin: 15px auto;
+background-color: rgba(255, 255, 255, 0.7);
+visibility: hidden; box-shadow: #777676 -2px -2px 5px inset;
+}
+#dotsdemodivup:hover #dotsdemodivdown
+{
+    visibility: visible;
+}
+#dotsdemodivdown a
+{
+    text-decoration: none; font-weight: bold; 
+}
+#dotsdemodivdown a p
+{
+padding: 150px 80px; font-size: 30px;
+}
