@@ -1,0 +1,62 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>יהודר שוץ - תיק עבודות >> צור קשר</title>
+    <meta name="description" content="יהודר שוץ - תיק עבודות, צור קשר" />
+    <meta name="keywords" content="טכנולוגיות למידה, עיצוב, פיתוח הדרכה, תכנות,צילום" />
+    <meta name="author" content="יהודר שוץ" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js" type="text/javascript"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript">  </script>
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Alef|Varela+Round" rel="stylesheet">
+</head>
+<body>
+    <div id="containerpage">
+        <nav>
+            <ul>
+                <li><a href="index.html"><img id="navhomepic" src="image/Home.png" /></a></li>
+                <li><a href="info.html">אודות</a></li>
+                <li class="inhere"><a href="#"  >צור קשר</a> </li>
+                <li><a href="graphics.html">גרפיקה</a></li>
+                <li><a href="tikshoret.html">תקש"ח</a></li>
+                <li><a href="knowleg.html">יצוג ידע</a></li>
+                <li><a href="animate.html">אנימציה</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>צרו קשר</h1>
+            <h2>לכל שאלה או הצעה, אשמח שתכתבו לי </h2>
+        </header>
+        <p>ניתן לשלוח מייל לכתובת: </p>
+        <p><a href="mailto:yehodar.s@gmail.com">yehodar.s@gmail.com</a></p>
+        <p>או להשאיר פרטים בטופס הבא ואצור קשר</p>
+        <img src="image/sunset.jpg" id="sunset"/>
+        <section id="formsec">
+            <form>
+                <input type="hidden" id="myEmail" name="name" value="yehodar.s@gmail.com">
+                <label for="name">
+                    שם
+                    <input type="text" id="name" placeholder="name" />
+                </label>
+                <label for="phone">מספר טלפון <input type="text" id="phone" placeholder="Phone number"</label>
+                <label for="mail">כתובת מייל <input type="text" id="mail" placeholder="Mail Adress"</label>
+                <label for="info">
+                    מסר
+                    <textarea id="info"></textarea>
+                </label>
+                <input type="submit" id="Send" value="שלח" onclick="messent()">
+            </form>
+        </section>
+            </div>
+</body>
+</html>
